@@ -1,12 +1,11 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
     <script language="javascript" type="text/javascript">
-        var a = 0;
-        a += "h";
-        var b = a + "-";
+//        var a = 0;
+//        a += "h";
+//        var b = a + "-";
 
         //alert(document.getElementById("username"));
 
@@ -45,20 +44,25 @@
 
         //alert(eval('1+2*5'));
 
+        var sDate = "23/12/2013";
+        var oArrar = sDate.split("/");        
+        if (oArrar.length ==3) {
+            alert('ngay:'+ oArrar[0] + ', thang:'+oArrar[1] + ', nam:' + oArrar[2]);
+        }
     </script>
 </head>
 <body onload="test()">
     <form id="form1" action="Default.aspx" method="post">
-        <input type="text" name="user" id="username" value="123" />
-        <div id="name"></div>
-        <input type="submit" value="submit trang" />
+    <input type="text" name="user" id="username" value="123" />
+    <div id="name">
+    </div>
+    <input type="submit" value="submit trang" />
     </form>
 </body>
-
 <script>
     //alert(document.getElementById("username"));
     //var e = document.forms[0].user.value;
     //alert(e);
-    document.getElementById("username").focus();
+    //document.getElementById("username").focus();
 </script>
 </html>
