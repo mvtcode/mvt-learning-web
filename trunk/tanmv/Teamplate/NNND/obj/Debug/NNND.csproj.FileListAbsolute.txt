@@ -1,0 +1,5 @@
+D:\project\mvt-learning-web\tanmv\Teamplate\NNND\bin\NNND.dll
+D:\project\mvt-learning-web\tanmv\Teamplate\NNND\bin\NNND.pdb
+D:\project\mvt-learning-web\tanmv\Teamplate\NNND\obj\Debug\ResolveAssemblyReference.cache
+D:\project\mvt-learning-web\tanmv\Teamplate\NNND\obj\Debug\NNND.dll
+D:\project\mvt-learning-web\tanmv\Teamplate\NNND\obj\Debug\NNND.pdb
