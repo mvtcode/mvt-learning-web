@@ -5,8 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Chào mừng bạn đến với website thực hành</title>
-    <link href="/CSS/CSS.css" rel="stylesheet" type="text/css" />
-    <script src="/JQ/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <link href="CSS/CSS.css" rel="stylesheet" type="text/css" />
+    <script src="JQ/jquery-1.7.2.min.js" type="text/javascript"></script>
 </head>
 <body>
     <form id="form1" runat="server">
