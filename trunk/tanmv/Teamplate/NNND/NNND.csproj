@@ -60,10 +60,19 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppCode\ConfigInfo.cs" />
-    <Compile Include="AppCode\ContentObject.cs" />
-    <Compile Include="AppCode\NewsInfo.cs" />
-    <Compile Include="AppCode\UserObject.cs" />
+    <Compile Include="AppCode\ConfigInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppCode\ContentObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppCode\NewsInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppCode\UserInfo.cs" />
+    <Compile Include="AppCode\UserObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
       <DependentUpon>Default.aspx</DependentUpon>
