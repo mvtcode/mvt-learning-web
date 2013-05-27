@@ -1,0 +1,92 @@
+﻿<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Calculator - Trung tam 222a</title>
+</head>
+
+<body style="text-align: center" bgcolor="#008080" bottommargin="0">
+
+<div align="center">
+    <table cellpadding="0" bgcolor="#C0C0C0" border="2" bordercolor="#666666" style="padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 0px" width="596" height="246">
+        <!-- MSTableType="layout" -->
+        <tr>
+            <td width="590" height="240" align="center"><form name="bieumau">
+<p style="margin-top: 10px; margin-bottom: 4px"><i><b>
+<font face="Arial" size="2">Trung tâm Tin học 222a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+SuperCalculator 1.0</font></b></i></p><hr>
+<p style="margin-top: 4px; margin-bottom: 4px">
+<font face="Arial" size="2">Input:&nbsp;&nbsp; </font>&nbsp;<input type="text" name="input" size="70"></p>
+<p style="margin-top: 12px; margin-bottom: 16px">
+<font face="Arial" size="2">Output: </font> <input type="text" name="output" size="70">
+</p>
+<p style="margin-top: 4px; margin-bottom: 4px">
+<input type="button" value="CE/OFF" style="width: 50px;height:24px; color:#FF0000; font-size:10px" onclick="ham('CE')" oncontextmenu="ham('OFF');return false">
+<input type="button" value="M+" style="width: 50px;height:24px; color:#0000FF; font-size:10px" onclick="hamnho(this.value)">
+<input type="button" value="M-" style="width: 50px;height:24px; color:#0000FF; font-size:10px" onclick="hamnho(this.value)">
+<input type="button" value="MR" style="width: 50px;height:24px; color:#0000FF; font-size:10px" onclick="hamnho(this.value)">
+<input type="button" value="MC" style="width: 50px;height:24px; color:#0000FF; font-size:10px" onclick="hamnho(this.value)">&nbsp;&nbsp;
+<input type="button" value="sin" style="width: 50px;height:24; font-size:10px" onclick="ham('Math.sin(')">
+<input type="button" value="asin" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.asin(')">
+<input type="button" value="cos" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.cos(')">
+<input type="button" value="acos" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.acos(')">
+<input type="button" value="tan" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.tan(')"></p>
+<p style="margin-top: 4px; margin-bottom: 4px">
+
+<input type="button" value="1" style="width: 50px;height:24px" onclick="ham(this.value)">
+<input type="button" value="2" style="width: 50px;height:24px" onclick="ham(this.value)">
+<input type="button" value="3" style="width: 50px;height:24px" onclick="ham(this.value)">
+<input type="button" value="4" style="width: 50px;height:24px" onclick="ham(this.value)">
+<input type="button" value="5" style="width: 50px;height:24px" onclick="ham(this.value)">&nbsp;&nbsp;
+<input type="button" value="atan" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.atan(')">
+<input type="button" value="atan2" style="width: 50;height:24; font-size:10px" onclick="ham('Math.atan2(')">
+<input type="button" value="log" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.log(')">
+<input type="button" value="LN2" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.LN2')">
+<input type="button" value="LN10" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.LN10')">
+</p>
+<p style="margin-top: 4px; margin-bottom: 4px">
+<input type="button" value="6" style="width: 50px;height:24px" onclick="ham(this.value)">
+<input type="button" value="7" style="width: 50px;height:24px" onclick="ham(this.value)">
+<input type="button" value="8" style="width: 50px;height:24px" onclick="ham(this.value)">
+<input type="button" value="9" style="width: 50px;height:24px" onclick="ham(this.value)">
+<input type="button" value="0" style="width: 50px;height:24px" onclick="ham(this.value)">&nbsp;&nbsp;
+<input type="button" value="LOG2E" style="width: 50;height:24; font-size:10px" onclick="ham('Math.LOG2E')">
+<input type="button" value="LOG10E" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.LOG10E')">
+<input type="button" value="pow" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.pow(')">
+<input type="button" value="exp" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.exp(')">
+<input type="button" value="√" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.sqrt(')"></p>
+<p style="margin-top: 4px; margin-bottom: 4px">
+<input type="button" value="." style="width: 50px;height:24px; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="," style="width: 50px;height:24px; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="(" style="width: 50px;height:24px; font-size:10px" onclick="ham(this.value)">
+<input type="button" value=")" style="width: 50px;height:24px; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="%/Re" style="width: 50px;height:24px; font-size:10px; color:#000080" onclick="ham('/100')" oncontextmenu="ham('%');return false">&nbsp;&nbsp;
+<input type="button" value="| |" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.abs(')">
+<input type="button" value="floor" style="width: 50px;height:24; font-size:10px" onclick="ham('Math.floor(')">
+<input type="button" value="n!" style="width: 50px;height:24px; font-size:10px; color:#000080" onclick="hamgiaithua(1)">
+<input type="button" value="A!" style="width: 50px;height:24px; font-size:10px; color:#000080" onclick="hamgiaithua(2)">
+<input type="button" value="C!" style="width: 50px;height:24px; font-size:10px; color:#000080" onclick="hamgiaithua(3)"></p>
+<p style="margin-top: 4px; margin-bottom: 4px">
+<input type="button" value="+" style="width: 50px;height:24px; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="-" style="width: 50px;height:24px; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="*" style="width: 50px;height:24px; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="/" style="width: 50px;height:24px; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="=" style="width: 50px;height:24px; font-size:10px" onclick="ham(this.value)">&nbsp;&nbsp;
+<input type="button" value="∑a" style="width: 50px;height:24px; font-size:10px; color:#000080" onclick="hamtinhtong(1)">
+<input type="button" value="∏a" style="width: 50px;height:24px; font-size:10px; color:#000080" onclick="hamtinhtong(2)">
+<input type="button" value="Mean" style="width: 50;height:24; font-size:10px; color:#000080" onclick="hamtrungbinh()">
+<input type="button" value="PI" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.PI')">
+<input type="button" value="E" style="width: 50px;height:24px; font-size:10px" onclick="ham('Math.E')"></p>
+<p style="margin-top: 8px; margin-bottom: 4px">
+<input type="button" value="a" style="width: 36;height:24; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="b" style="width: 36;height:24; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="c" style="width: 36;height:24; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="d" style="width: 36;height:24; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="e/E" style="width: 36;height:24; font-size:10px" onclick="ham('e')" oncontextmenu="ham('E');return false">
+<input type="button" value="f" style="width: 36;height:24; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="g/G" style="width: 36;height:24; font-size:10px" onclick="ham('g')" oncontextmenu="ham('G');return false">
+<input type="button" value="h" style="width: 36;height:24; font-size:10px" onclick="ham(this.value)">
+<input type="button" value="i/I" style="width: 36;height:24; font-size:10px" onclick="ham('i')" oncontextmenu="ham('I');return false">
+<input type="button" value="l/L" style="width: 36;height:24; font-size:10px" onclick="ham('l')" oncontextmenu="ham('L');return false">
+<input type="button" value="m/M" style="width: 36;height:24; font-size:10px" onclick="ham('m')" oncontextmenu="ham('M');return false">
+<input type="button" value="n/N" style="width: 36;height:24; font-size:10px" onclick="ham('n')" oncontextmenu="ham('N');return false"></p>
