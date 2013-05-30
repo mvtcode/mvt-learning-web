@@ -13,6 +13,7 @@
     <RootNamespace>NNND</RootNamespace>
     <AssemblyName>NNND</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,10 +48,21 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\default-slider.css" />
+    <Content Include="CSS\nivo-slider.css" />
+    <Content Include="CSS\style-slider.css" />
     <Content Include="Default.aspx" />
-    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.4.1.js" />
-    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="CSS\Styles.css" />
+    <Content Include="Images\banner.jpg" />
+    <Content Include="Images\Banner\nemo.jpg" />
+    <Content Include="Images\Banner\up.jpg" />
+    <Content Include="Images\Banner\walle.jpg" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\Slider\arrows.png" />
+    <Content Include="Images\Slider\bullets.png" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery.nivo.slider.js" />
+    <Content Include="Images\Slider\loading.gif" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
