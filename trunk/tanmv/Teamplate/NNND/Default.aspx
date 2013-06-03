@@ -5,6 +5,28 @@
 <head runat="server">
     <title>Ngoại ngữ Nam Du</title>
     <link href="/CSS/Styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        window.$zopim || (function (d, s) {
+            var z = $zopim = function (c) { z._.push(c); }, $ = z.s =
+                d.createElement(s), e = d.getElementsByTagName(s)[0]; z.set = function (o) {
+                    z.set._.push(o);
+                }; z._ = []; z.set._ = []; $.async = !0; $.setAttribute('charset', 'utf-8');
+            $.src = '//cdn.zopim.com/?1H0Ytb9d0pB3uXjTVbsKB33yoLSDFpNr'; z.t = +new Date; $.type = 'text/javascript';
+            e.parentNode.insertBefore($, e);
+        })(document, 'script');
+        $zopim(function () {
+            $zopim.livechat.setLanguage('vi');
+            $zopim.livechat.bubble.setTitle('Bạn cần giúp đỡ?');
+            $zopim.livechat.bubble.setText('Nhấn vào để được hỗ trợ trực tuyến');
+            $zopim.livechat.setGreetings({
+                'online': ['Click để gửi câu hỏi', 'Cảm ơn bạn đã ghé thăm. Bạn có thắc mắc hay góp ý gì về dịch của chúng tôi, hãy nhập một câu hỏi, nhân viên CSKH sẽ chat với bạn để giải đáp.'],
+                'offline': ['Click để gửi lời nhắn', 'Cảm ơn bạn đã ghé thăm. Hiện đang ngoài giờ hành chính hoặc nhân viên CSKH đi vắng, bạn vui lòng để lại câu hỏi hoặc lời nhắn, chúng tôi sẽ trả lời qua email cho bạn trong thời gian sớm nhất.'],
+                'away': ['Click để gửi lời nhắn', 'Cảm ơn bạn đã ghé thăm. Hiện nhân viên CSKH đi vắng, bạn vui lòng để lại câu hỏi hoặc lời nhắn, chúng tôi sẽ trả lời qua email cho bạn trong thời gian sớm nhất.']
+            });
+        });
+    </script>
+    <script>        function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'vi', includedLanguages: 'zh-CN,zh-TW,en,fr,de,ja,ko,ru,vi', autoDisplay: false, layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element'); }</script>
+	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -171,7 +193,9 @@
                 </script>
                 <div class="fb-comments" data-href="http://ngoaingunamdu.com" data-width="940" data-num-posts="10">
                 </div>
-                <div class="fb-like" data-href="http://ngoaingunamdu.com" data-send="true" data-width="940" data-show-faces="true"></div>
+                <div class="fb-like" data-href="http://ngoaingunamdu.com" data-send="true" data-width="940"
+                    data-show-faces="true">
+                </div>
             </div>
             <div id="bottom">
                 <img src="Images/bottom.jpg" width="100%" />
@@ -179,5 +203,16 @@
         </div>
     </div>
     </form>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments);
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g;
+            m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-40217379-2', 'ngoaingunamdu.com');
+        ga('send', 'pageview');
+    </script>
 </body>
 </html>
