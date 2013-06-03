@@ -4,6 +4,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Ngoại ngữ Nam Du</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+    <meta http-equiv="Content-Language" content="vi"/>
     <link href="/CSS/Styles.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript">
         window.$zopim || (function (d, s) {
@@ -196,6 +198,9 @@
                 <div class="fb-like" data-href="http://ngoaingunamdu.com" data-send="true" data-width="940"
                     data-show-faces="true">
                 </div>
+                <%--<div class="fb-facepile" data-href="http://ngoaingunamdu.com" data-action="like" data-size="large" data-max-rows="1" data-width="300"></div>
+                <div class="fb-send" data-href="http://ngoaingunamdu.com" data-font="tahoma"></div>--%>
+                <%--<div class="fb-activity" data-site="http://ngoaingunamdu.com" data-width="300" data-height="300" data-header="true" data-recommendations="false"></div>--%>
             </div>
             <div id="bottom">
                 <img src="Images/bottom.jpg" width="100%" />
