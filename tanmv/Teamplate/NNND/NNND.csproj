@@ -48,21 +48,53 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CSS\default-slider.css" />
-    <Content Include="CSS\nivo-slider.css" />
-    <Content Include="CSS\style-slider.css" />
+    <Content Include="Admin\css\login.css" />
+    <Content Include="Admin\images\BG.jpg" />
+    <Content Include="Admin\images\input_left.png" />
+    <Content Include="Admin\images\input_middle.png" />
+    <Content Include="Admin\images\input_right.png" />
+    <Content Include="Admin\images\mailicon.png" />
+    <Content Include="Admin\images\passicon.png" />
+    <Content Include="Admin\images\submit.png" />
+    <Content Include="Admin\images\submit_hover.png" />
+    <Content Include="Admin\images\wrapper_bottom.png" />
+    <Content Include="Admin\images\wrapper_middle.png" />
+    <Content Include="Admin\images\wrapper_top.png" />
+    <Content Include="Admin\js\jquery.js" />
+    <Content Include="Admin\js\jquery.query-2.1.7.js" />
+    <Content Include="Admin\js\rainbows.js" />
+    <Content Include="Admin\Login.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="CSS\Styles.css" />
+    <Content Include="Images\2.png" />
+    <Content Include="Images\3.png" />
+    <Content Include="Images\4.png" />
+    <Content Include="Images\5.png" />
+    <Content Include="Images\6.png" />
+    <Content Include="Images\7.png" />
+    <Content Include="Images\8.png" />
+    <Content Include="Images\9.png" />
+    <Content Include="Images\Background\bgHeader.jpg" />
+    <Content Include="Images\Background\num_1.jpg" />
     <Content Include="Images\banner.jpg" />
-    <Content Include="Images\Banner\nemo.jpg" />
-    <Content Include="Images\Banner\up.jpg" />
-    <Content Include="Images\Banner\walle.jpg" />
+    <Content Include="Images\banner_bottom.jpg" />
+    <Content Include="Images\bottom.jpg" />
+    <Content Include="Images\cd2.png" />
+    <Content Include="Images\diengiai1.png" />
+    <Content Include="Images\diengiai2.png" />
+    <Content Include="Images\diengiai3.png" />
+    <Content Include="Images\diengiai4.png" />
+    <Content Include="Images\diengiai5.png" />
+    <Content Include="Images\diengiai6.png" />
+    <Content Include="Images\ex1.png" />
     <Content Include="Images\logo.jpg" />
-    <Content Include="Images\Slider\arrows.png" />
-    <Content Include="Images\Slider\bullets.png" />
+    <Content Include="Images\ngoai3.png" />
+    <Content Include="Images\numner1.jpg" />
+    <Content Include="Images\sach1.png" />
+    <Content Include="Images\sau3.png" />
+    <Content Include="Images\site_Tham_Khao.jpg" />
+    <Content Include="Images\tongketmorong.png" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
-    <Content Include="Scripts\jquery.nivo.slider.js" />
-    <Content Include="Images\Slider\loading.gif" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -72,6 +104,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AppCode\ConfigInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -95,7 +134,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

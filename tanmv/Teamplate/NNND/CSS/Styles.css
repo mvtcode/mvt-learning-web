@@ -7,101 +7,58 @@ img {
     border: 0;
 }
 
-.body 
-{
-    width: 940px;
-    background: #fff;
-    margin: 0 auto;
-    display: block;
-}
-#MainBody {
-    width: 960px;
-    margin: 10px auto;
-    border-left: 1px solid #AAAAAA;
-    border-right: 1px solid #AAAAAA;
-    border-top: 1px solid #AAAAAA;
-    border-bottom: 1px solid #67b5de;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(124, 177, 216, 0.75); 
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
-}
-
-#header 
-{
-    width: 100%;
-    margin: 0 auto;
-    background: #fff;
-    display: block;
-    height: 300px;
-}
-#banner 
-{
-    width: 100%;
-    margin: 0 auto;
-    background: #fff;
-    display: block;
-    height: 200px;
+.clear {
     clear: both;
 }
+Body {
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+}
 
+#MainBody 
+{
+    width: 100%;
+    background: #d60508;
+    padding: 0 30px;
+}
 
-/*============================*/
-/*=== Custom Slider Styles ===*/
-/*============================*/
-
-#slider img {
-	position:absolute;
-	top:0px;
-	left:0px;
-	display:none;
+#page {
+    /*background: #f6b600;*/
     width: 100%;
 }
-#slider a {
-	border:0;
-	display:block;
+
+#header {
+    background: url('/Images/Background/bgHeader.jpg') repeat-x;
+    padding: 10px 10px 0;
 }
 
-.nivo-controlNav {
-	position:absolute;
-	left:260px;
-	bottom:-42px;
-}
-.nivo-controlNav a {
-	display:block;
-	width:22px;
-	height:22px;
-	background:url(/images/bullets.png) no-repeat;
-	text-indent:-9999px;
-	border:0;
-	margin-right:3px;
-	float:left;
-}
-.nivo-controlNav a.active {
-	background-position:0 -22px;
+#Content {
+    background: #f6b600;
+    width: 100%;
 }
 
-.nivo-directionNav a {
-	display:block;
-	width:30px;
-	height:30px;
-	background:url(images/arrows.png) no-repeat;
-	text-indent:-9999px;
-	border:0;
-}
-a.nivo-nextNav {
-	background-position:-30px 0;
-	right:15px;
-}
-a.nivo-prevNav {
-	left:15px;
+#Content .title
+{
+    background: #d60508;
+    border-top: 2px solid #ec4e5c;
+    height: 60px;
+    color: white;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 24px;
+    width: 100%;
+    padding-left: 50px;
+    text-justify: inherit
 }
 
-.nivo-caption {
-    text-shadow:none;
-    font-family: Helvetica, Arial, sans-serif;
+#Content img {
+    /*width: 100%;*/
 }
-.nivo-caption a { 
-    color:#efe9d1;
-    text-decoration:underline;
+
+#facebook {
+    background: #fff;
+    margin: 10px 0;
+    /*border-top: 2px solid #999;*/
+    padding: 10px;
 }
