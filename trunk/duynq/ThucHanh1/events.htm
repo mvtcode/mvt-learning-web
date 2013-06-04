@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        function fClick() {
+            //document.title = 'click';
+        }
+        function fDblClick() {
+            document.title = 'dbl click';
+        }
+        function fonmousedown() {
+            document.title = 'xuống';
+        }
+        function fMove() {
+            //document.title = 'onmousemove';
+        }
+        function fonmouseover() {
+            document.title = 'vào';
+        }
+        function fonmouseout() {
+            document.title = 'out';
+        }
+        function fonmouseup() {
+            document.title = 'lên';
+        }
+        function fFocus() {
+            document.title = 'tâm điểm';
+        }
+        function fonblur() {
+            document.title = 'di ra ngoài';
+        }
+        function fonkeypress() {
+            document.title = 'đang nhập dữ liệu';//chỉ nhập số
+        }
+
+        function fonchange() {
+            document.title = 'đã thay đổi nội dung'; //chỉ nhập số
+        }
+
+        window.onresize = function () {
+            document.title = 'thay đổi kích thước màn hình';
+        }
+
+        window.onscroll = function () {
+            document.title = 'kéo thanh cuộn';
+        }
+
+//        var s = /^[A-Z][a-zA-Z0-9]{5,10}$/;
+//        var s2 = 'A123aW';
+//        alert(s.test(s2));
+
+        var s = /^\d{3,6}$/gi;
+        var s2 = 'anh yêu em 123 thế xong 22221';
+        alert(s2.match(/\d{3,6}/));
+    </script>
+</head>
+<body>
+    <img src="Images/garden1.jpg" 
+    onclick="fClick()" 
+    ondblclick="fDblClick()" 
+    onmousedown="fonmousedown()" 
+    onmousemove="fMove()" 
+    onmouseover="fonmouseover()" 
+    onmouseout="fonmouseout()"
+    onmouseup="fonmouseup()" />
+
+    <input type="text" onblur="fonblur()" onchange="fonchange()" onfocus="fFocus()" onkeypress="fonkeypress()" onkeydown="" onkeyup="" />
+</body>
+</html>

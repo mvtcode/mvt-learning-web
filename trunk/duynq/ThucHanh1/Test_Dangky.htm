@@ -12,8 +12,23 @@
             email = document.form1.txtemail;
             dienthoai = document.form1.txtdienthoai;
             ngaysinh = document.form1.txtngaysinh;
-            reg1 = /^[0-9A-Za-z]+[0-9A-Za-z_]*@[\w\d.]+.\w{2,4}$/;
-            testmail = reg1.test(email.value);
+            //reg1 = /^[0-9A-Za-z]+[0-9A-Za-z_]*@[\w\d.]+.\w{2,4}$/;
+            //testmail = reg1.test(email.value);
+            var kituacong = '@';
+            s1 = email;
+            a = s1.indexOf(kituacong);
+            var kitudau = s1.charAt(0);
+            s2 = 'QWERTYUIOPLKJHGFDSAMNBVCXZqwertyuioplkjhgfdsamnbvcxz';
+            b = s1.indexOf(kitudau);
+            var kitucham = '.';
+            c= s1.indexOf(kitucham);
+            d = c- a;
+            
+
+
+
+
+
             if (username.value == "") {
                 alert("Hãy chọn tên đăng nhập");
                 username.focus();
@@ -31,8 +46,7 @@
                 username.focus();
                 return false;
             }
-
-
+            
             var m = ngaysinh.value.split("/");
             if (m.length != 3) {
                 alert("Định dạng ngày sinh không đúng");
@@ -74,7 +88,7 @@
                 diachi.focus();
                 return false;
             }
-            if (!testmail) {
+            if (a<2 || b != -1 || d <1 ||   ) {
                 alert("Địa chỉ email không hợp lệ");
                 email.focus();
                 return false;
@@ -86,11 +100,7 @@
             }
             else alert('OK, đã nhập đúng dữ liệu');
             return true;
-
-
-
-            
-            
+                                          
         }
         
     </script>
