@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+    <title>May Tinh Javascript</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script language="JavaScript">
+        function hienthi(a) {
+            document.pheptinh.manhinh.value += a;
+        }
+        function tinh() {
+            document.pheptinh.manhinh.value = eval(document.pheptinh.manhinh.value);
+        }
+        function xoa() {
+            document.pheptinh.manhinh.value = "";
+        }
+    </script>
+</head>
+<body bgcolor=white>
+    <form name="pheptinh">
+        <table align="center">
+            <caption>Máy tính Javacript <input name="manhinh" type="text" size=15></caption>
+        <tr align="center">
+            <td><input name"number1" type="button" value="1" onClick="hienthi(this.value)" >
+            <td><input name"number2" type="button" value="2" onClick="hienthi(this.value)" >
+            <td><input name"number3" type="button" value="3" onClick="hienthi(this.value)" >
+            <td><input name"cong" type="button" value="+" onClick="hienthi(this.value)" >
+        <tr align="center">    
+            <td><input name"number4" type="button" value="4" onClick="hienthi(this.value)" >
+            <td><input name"number5" type="button" value="5" onClick="hienthi(this.value)" >
+            <td><input name"number6" type="button" value="6" onClick="hienthi(this.value)" >
+            <td><input name"tru" type="button" value="-" onClick="hienthi(this.value)" >
+        <tr align="center">    
+            <td><input name"number7" type="button" value="7" onClick="hienthi(this.value)" >
+            <td><input name"number8" type="button" value="8" onClick="hienthi(this.value)" >
+            <td><input name"number9" type="button" value="9" onClick="hienthi(this.value)" >
+            <td><input name"nhan" type="button" value="*" onClick="hienthi(this.value)">
+        <tr align="center">    
+            <td><input name"c" type="button" value="C" onClick="xoa()" >
+            <td><input name"number0" type="button" value="0" onClick="hienthi(this.value)" >
+            <td><input name"bang" type="button" value="=" onClick="tinh()" >
+            <td><input name"chia" type="button" value="/" onClick="hienthi(this.value)">
+        </table>    
+    </form>
+</body>
+</html>
