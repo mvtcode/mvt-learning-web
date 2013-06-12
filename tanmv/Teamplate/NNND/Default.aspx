@@ -143,7 +143,7 @@
             <div class="clear">
             </div>
             <div id="banner">
-                <img src="/Images/site_Tham_Khao.jpg" title="site tham khảo" style="width: 100%"
+                <img src="/Images/site_Tham_Khao_1.jpg" title="site tham khảo" style="width: 100%"
                     alt="site tham khảo" />
                 <img src="/Images/banner_bottom.jpg" title="Thông tin thêm" style="width: 100%" alt="Thông tin thêm" />
             </div>
