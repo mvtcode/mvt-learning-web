@@ -11,8 +11,8 @@ namespace NNND
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Dictionary<string, string> obj = NNND.AppCode.ConfigInfo.GetSetting();
-            NNND.AppCode.ConfigInfo.Update(obj);
+            //Dictionary<string, string> obj = NNND.AppCode.ConfigInfo.GetSetting();
+            //NNND.AppCode.ConfigInfo.Update(obj);
         }
     }
 }
