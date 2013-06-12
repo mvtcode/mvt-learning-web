@@ -19,7 +19,7 @@ Body {
 #MainBody 
 {
     width: 100%;
-    background: #d60508;
+    background: #93f685 url('/Images/Background/bg.jpg');
     padding: 0 30px;
 }
 
@@ -29,7 +29,7 @@ Body {
 }
 
 #header {
-    background: url('/Images/Background/bgHeader.jpg') repeat-x;
+    background: url('/Images/Background/bgHeader_1.jpg') repeat-x;
     padding: 10px 10px 0;
 }
 
