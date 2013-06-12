@@ -34,7 +34,7 @@ Body {
 }
 
 #Content {
-    background: #f6b600;
+   /* background: #f6b600; */
     width: 100%;
 }
 
@@ -61,4 +61,126 @@ Body {
     margin: 10px 0;
     /*border-top: 2px solid #999;*/
     padding: 10px;
+}
+
+#Content4 
+{
+    background: url('/Images/Background/bg_4.png') repeat;
+    height:405px;
+    width:100%;
+    margin:0px;
+}   
+
+#Content4 .title
+{
+    background: transparent;
+    position:relative;
+    left:10px;
+    top:10px;
+    border: 0px;
+    white-space:nowrap;
+    vertical-align:bottom;
+}
+
+#Content4 .ContentBg
+{
+    margin-left:2.5%;
+    position:absolute;
+    width:95%;
+    height:295px;
+}
+
+#Content4 .BgContentLeftTop
+{
+    width:650px;
+    height:240px;
+    float:left;
+    position:relative;
+    background: url('/Images/Background/bg_4.png') repeat;
+}
+
+#Content4 .BgContentLeftBot
+{
+    padding:10px 0px 10px 10px;
+    top:220px;
+    width:655px;
+    height:95px;
+    float:left;
+    position:absolute;
+    background: white;
+    -webkit-border-radius: 10px;  
+    -moz-border-radius: 10px;  
+    border-radius: 10px; 
+}
+
+#Content4 .BgContentRight
+{
+    padding:10px 10px 10px 10px;
+    left:640px;
+    float:right;
+    width:300px;
+    height:315px; 
+    background: white;
+    position:absolute;
+    -webkit-border-radius: 10px;  
+    -moz-border-radius: 10px;  
+    border-radius: 10px; 
+}
+
+#Content4 .BgContentLeftTop-left
+{
+    padding:10px 10px 10px 10px;
+    float:left;
+    position:absolute;
+    height:180px;
+    background:yellow;
+    width:200px;
+    -webkit-border-radius: 10px;  
+    -moz-border-radius: 10px;  
+    border-radius: 10px; 
+}
+
+#Content4 .BgContentLeftTop-middle
+{
+    left:190px;
+    height:180px;
+    width:20px;
+    float:left;
+    position:absolute;
+    background:yellow;
+}
+
+#Content4 .BgContentLeftTop-right
+{
+    padding:10px 10px 10px 30px;
+    top:50px;
+    height:130px;
+    width:380px;
+    left:200px;
+    position:absolute;
+    background:yellow;
+    float:right;
+    -webkit-border-radius: 10px;  
+    -moz-border-radius: 10px;  
+    border-radius: 10px; 
+}
+
+#Detail4
+{
+    padding:10px 10px 10px 10px;
+    background:white;
+    -webkit-border-radius: 25px;  
+    -moz-border-radius: 25px;  
+    border-radius: 25px; 
+    margin-top:10px;
+    margin-bottom:10px;
+    width:980px;
+    height:220px;
+}
+
+#Content5
+{
+    background: url('/Images/Background/bg_4.png') repeat;
+    width:100%;
+    margin:0px;
 }

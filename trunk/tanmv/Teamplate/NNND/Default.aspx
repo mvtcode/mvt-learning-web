@@ -240,11 +240,27 @@
                 <div style="width: 100%; text-align: center; background: #d60508;">
                     <img src="Images/diengiai3.png" /></div>
                 <!--4-->
-                <img src="Images/4.png" width="100%" />
-                <img src="Images/diengiai4.png" width="100%" />
+                    <div class="clear"></div>
+                <div id="Content4">
+                    <div class="title">Title 4</div>
+                    <div class="clear"></div>
+                    <div class="ContentBg">
+                        <div class="BgContentLeftTop">
+                            <div class="BgContentLeftTop-left">he he he</div>
+                            <div class="BgContentLeftTop-middle"></div>
+                            <div class="BgContentLeftTop-right">ho ho ho</div>
+                        </div>
+                        <div class="BgContentRight">r</div>
+                        <div class="BgContentLeftBot">f</div>
+                    </div>
+                </div>
+                <div id="Detail4"></div>
                 <!--5-->
+                <div id="Content5">
+                    <img src="Images/5.png" width="100%" />
+                </div>
                 <a href="http://tieba.baidu.com/f?kz=1039355702">
-                    <img src="Images/5.png" width="100%" /></a>
+                    </a>
                 <img src="Images/diengiai5.png" width="100%" />
                 <!--6-->
                 <img src="Images/6.png" width="100%" />
