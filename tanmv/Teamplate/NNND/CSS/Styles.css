@@ -103,6 +103,19 @@ Body {
     color:White;
 }
 
+#Content .Advantise3
+{
+
+}
+
+#Content .Advantise2
+{
+    width:930px;
+    height:575px;
+    margin-top:10px;
+    text-align:center;
+}
+
 #Content img {
     /*width: 100%;*/
 }

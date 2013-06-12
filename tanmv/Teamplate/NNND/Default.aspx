@@ -2,7 +2,7 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <title>Ngoại ngữ Nam Du</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Language" content="vi" />
@@ -152,41 +152,94 @@
             <div id="Content">
                 <!--1-->
                 <div class="TitleYellow">Title 1</div>
-                <div class="FlashPlayerFrame"> </div>
-                <div class="DetailBot"></div>
-                <!--2-->
-                <div class="TitleYellow">Tite 2</div>
-                <div class="CommentTop">Này thì comment</div>
-                <div class="FlashPlayerFrame"> </div>
-                <img src="Images/diengiai2.png" width="100%" />
-                <!--3-->
-                <img src="Images/3.png" width="100%" />
-                <object width="946" height="773" title="粤语学习01" id="FlashID3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-                    style="visibility: inherit;">
-                    <param value="http://player.youku.com/player.php/sid/XMjQ5NjU5MTU2/v.swf" name="movie">
-                    <param value="high" name="quality">
-                    <param value="opaque" name="wmode">
-                    <param value="6.0.65.0" name="swfversion">
-                    <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
-                    <!--[if !IE]>-->
-                    <object width="946" height="773" data="http://player.youku.com/player.php/sid/XMjQ5NjU5MTU2/v.swf"
-                        type="application/x-shockwave-flash">
-                        <!--<![endif]-->
+                <div class="FlashPlayerFrame">
+                    <object width="100%" height="775" title="粤语学习01" id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                        style="visibility: inherit;">
+                        <param value="http://player.youku.com/player.php/sid/XMjQ5NjU5MTU2/v.swf" name="movie">
                         <param value="high" name="quality">
                         <param value="opaque" name="wmode">
                         <param value="6.0.65.0" name="swfversion">
                         <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
-                        <div>
-                            <h4>
-                                Download Adobe Flash Player。</h4>
-                            <p>
-                                <a href="http://www.adobe.com/go/getflashplayer">
-                                    <img width="112" height="33" alt="Download Adobe Flash Player" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"></a></p>
-                        </div>
                         <!--[if !IE]>-->
+                        <object width="100%" height="775" data="http://player.youku.com/player.php/sid/XMjQ5NjU5MTU2/v.swf"
+                            type="application/x-shockwave-flash">
+                            <!--<![endif]-->
+                            <param value="high" name="quality">
+                            <param value="opaque" name="wmode">
+                            <param value="6.0.65.0" name="swfversion">
+                            <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
+                            <div>
+                                <h4>
+                                    Download Adobe Flash Player。</h4>
+                                <p>
+                                    <a href="http://www.adobe.com/go/getflashplayer">
+                                        <img width="112" height="33" alt="Download Adobe Flash Player" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"></a></p>
+                            </div>
+                            <!--[if !IE]>-->
+                        </object>
+                        <!--<![endif]-->
                     </object>
-                    <!--<![endif]-->
-                </object>
+		        </div>
+                <div class="DetailBot"></div>
+                <!--2-->
+                <div class="TitleYellow">Tite 2</div>
+                <div class="CommentTop">Này thì comment</div>
+                <div class="FlashPlayerFrame">
+                    <object width="100%" height="775" title="粤语学习01" id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                        style="visibility: inherit;">
+                        <param value="http://player.youku.com/player.php/sid/XMjYzMDQzNjQ0/v.swf" name="movie">
+                        <param value="high" name="quality" />
+                        <param value="opaque" name="wmode">
+                        <param value="6.0.65.0" name="swfversion">
+                        <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
+                        <!--[if !IE]>-->
+                        <object width="100%" height="775" data="http://player.youku.com/player.php/sid/XMjYzMDQzNjQ0/v.swf"
+                            type="application/x-shockwave-flash">
+                            <!--<![endif]-->
+                            <param value="high" name="quality">
+                            <param value="opaque" name="wmode">
+                            <param value="6.0.65.0" name="swfversion">
+                            <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
+                            <div>
+                                <h4>
+                                    Download Adobe Flash Player</h4>
+                            </div>
+                            <!--[if !IE]>-->
+                        </object>
+                        <!--<![endif]-->
+                    </object>
+	            </div>
+                <div class="Advantise2"><img alt="" src="Images/adv2.jpg" /></div>
+                <!--3-->
+                <div class="TitleYellow">Title 3</div>
+                <div class="FlashPlayerFrame">
+                    <object width="946" height="773" title="粤语学习01" id="FlashID3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                        style="visibility: inherit;">
+                        <param value="http://player.youku.com/player.php/sid/XMjQ5NjU5MTU2/v.swf" name="movie">
+                        <param value="high" name="quality">
+                        <param value="opaque" name="wmode">
+                        <param value="6.0.65.0" name="swfversion">
+                        <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
+                        <!--[if !IE]>-->
+                        <object width="946" height="773" data="http://player.youku.com/player.php/sid/XMjQ5NjU5MTU2/v.swf"
+                            type="application/x-shockwave-flash">
+                            <!--<![endif]-->
+                            <param value="high" name="quality">
+                            <param value="opaque" name="wmode">
+                            <param value="6.0.65.0" name="swfversion">
+                            <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
+                            <div>
+                                <h4>
+                                    Download Adobe Flash Player。</h4>
+                                <p>
+                                    <a href="http://www.adobe.com/go/getflashplayer">
+                                        <img width="112" height="33" alt="Download Adobe Flash Player" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"></a></p>
+                            </div>
+                            <!--[if !IE]>-->
+                        </object>
+                        <!--<![endif]-->
+                    </object>
+	            </div>
                 <div style="width: 100%; text-align: center; background: #d60508;">
                     <img src="Images/diengiai3.png" /></div>
                 <!--4-->
@@ -254,7 +307,7 @@
         </div>
     </div>
     </form>
-    <script>
+    <script type="text/javascript">
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments);
