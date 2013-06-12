@@ -4,9 +4,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Ngoại ngữ Nam Du</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
-    <meta http-equiv="Content-Language" content="vi"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="vi" />
+    <link rel="shortcut icon" href="/Images/favicon.ico" type="image/x-icon"/>
     <link href="/CSS/Styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
     <script type="text/javascript">
         window.$zopim || (function (d, s) {
             var z = $zopim = function (c) { z._.push(c); }, $ = z.s =
@@ -26,12 +30,88 @@
                 'away': ['Click để gửi lời nhắn', 'Cảm ơn bạn đã ghé thăm. Hiện nhân viên CSKH đi vắng, bạn vui lòng để lại câu hỏi hoặc lời nhắn, chúng tôi sẽ trả lời qua email cho bạn trong thời gian sớm nhất.']
             });
         });
+
+        $(document).ready(function () {
+            var $left_floater = $("ul#left_floater li");
+            $left_floater.hover(function () {
+                $(this).animate({ left: '100px' }, 200);
+            }
+            , function () {
+                $(this).animate({ left: '0px' }, 200);
+            });
+        });
     </script>
     <script>        function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'vi', includedLanguages: 'zh-CN,zh-TW,en,fr,de,ja,ko,ru,vi', autoDisplay: false, layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element'); }</script>
-	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <style>
+        .menu_floater_left
+        {
+            cursor: pointer;
+            height: 198px;
+            left: -100px;
+            position: fixed;
+            top: 200px;
+            width: 163px;
+            z-index: 3;
+        }
+        ul#left_floater li
+        {
+            display: list-item;
+            float: left;
+            margin: 0;
+            position: relative;
+        }
+        ul#left_floater li a.left_tintuc
+        {
+            background: url("http://ccard.vn/skin/white/css/img3/left_tintuc.jpg") no-repeat scroll right center #02AF1F;
+            float: left;
+            height: 66px;
+            margin: 0;
+            position: relative;
+            width: 163px;
+        }
+        ul#left_floater li a.left_dangky
+        {
+            background: url("http://ccard.vn/skin/white/css/img3/left_dangky.jpg") no-repeat scroll right center #FC8200;
+            float: left;
+            height: 66px;
+            margin: 0;
+            position: relative;
+            width: 163px;
+        }
+        ul#left_floater li a.left_muathe
+        {
+            background: url("http://ccard.vn/skin/white/css/img3/left_muathe.jpg") no-repeat scroll right center #FC3A00;
+            float: left;
+            height: 66px;
+            margin: 0;
+            position: relative;
+            width: 163px;
+        }
+        ul#left_floater li a.left_kichhoathe
+        {
+            background: url("http://ccard.vn/skin/white/css/img3/left_kichhoatthe_ccard.jpg") no-repeat scroll right center #92278F;
+            float: left;
+            height: 66px;
+            margin: 0;
+            position: relative;
+            width: 163px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
+    <%--<div id="BDBridgeIconWrap" style="text-align: left; display: block; width: 25px; height: 68px; position: fixed; top: 50%; left: 0px; margin-left: 8px; margin-top: -59px; overflow: hidden;">
+        nằm im ở đây!
+    </div>--%>
+    <div style="top: 40%;" class="menu_floater_left">
+        <ul id="left_floater">
+            <li style="left: 0px;"><a href="/tin-tuc/index.htm" class="left_tintuc"></a></li>
+            <li style="left: 0px;"><a href="/dang-ky.html" class="left_dangky"></a></li>
+            <%--<li style="left: 0px;"><a href="/Mua-the/index.htm" class="left_muathe"></a></li>
+            <li style="left: 0px;"><a href="/kich-hoat-the.html" class="left_kichhoathe"></a></li>--%>
+        </ul>
+    </div>
     <div id="MainBody">
         <div id="page">
             <div id="header">
