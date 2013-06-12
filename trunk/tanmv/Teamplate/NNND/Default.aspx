@@ -213,7 +213,7 @@
                 <!--3-->
                 <div class="TitleYellow">Title 3</div>
                 <div class="FlashPlayerFrame">
-                    <object width="946" height="773" title="粤语学习01" id="FlashID3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                    <object width="100%" height="775" title="粤语学习01" id="FlashID3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
                         style="visibility: inherit;">
                         <param value="http://player.youku.com/player.php/sid/XMjQ5NjU5MTU2/v.swf" name="movie">
                         <param value="high" name="quality">
@@ -221,7 +221,7 @@
                         <param value="6.0.65.0" name="swfversion">
                         <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
                         <!--[if !IE]>-->
-                        <object width="946" height="773" data="http://player.youku.com/player.php/sid/XMjQ5NjU5MTU2/v.swf"
+                        <object width="100%" height="773" data="http://player.youku.com/player.php/sid/XMjQ5NjU5MTU2/v.swf"
                             type="application/x-shockwave-flash">
                             <!--<![endif]-->
                             <param value="high" name="quality">
@@ -240,26 +240,21 @@
                         <!--<![endif]-->
                     </object>
 	            </div>
-                <div style="width: 100%; text-align: center; background: #d60508;">
-                    <img src="Images/diengiai3.png" /></div>
+                <div class="Advantise3"><img src="Images/adv3.JPG" /></div>
                 <!--4-->
                     <div class="clear"></div>
                 <div id="Content4">
-                    <div class="title">Title 4</div>
+                    <div class="TitleWhite">Title 4</div>
                     <div class="clear"></div>
                     <div class="ContentBg">
-                        <div class="BgContentLeftTop">
-                            <div class="BgContentLeftTop-left">he he he</div>
-                            <div class="BgContentLeftTop-middle"></div>
-                            <div class="BgContentLeftTop-right">ho ho ho</div>
-                        </div>
-                        <div class="BgContentRight">r</div>
-                        <div class="BgContentLeftBot">f</div>
+                        <img src="Images/Detail4.PNG" />
                     </div>
                 </div>
-                <div id="Detail4"></div>
+                <div class="DetailBot"></div>
                 <!--5-->
                 <div id="Content5">
+                    <div class="TitleWhite">Title 5</div>
+                    <div class="AdvantiseTop"><img src="Images/adv5.PNG" /></div>
                     <img src="Images/5.png" width="100%" />
                 </div>
                 <a href="http://tieba.baidu.com/f?kz=1039355702">

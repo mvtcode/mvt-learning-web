@@ -74,6 +74,9 @@
     <Content Include="Images\7.png" />
     <Content Include="Images\8.png" />
     <Content Include="Images\9.png" />
+    <Content Include="Images\adv2.JPG" />
+    <Content Include="Images\adv3.JPG" />
+    <Content Include="Images\adv5.PNG" />
     <Content Include="Images\Background\bgHeader.jpg" />
     <Content Include="Images\Background\bg_4.PNG" />
     <Content Include="Images\Background\num_1.jpg" />
@@ -81,6 +84,7 @@
     <Content Include="Images\banner_bottom.jpg" />
     <Content Include="Images\bottom.jpg" />
     <Content Include="Images\cd2.png" />
+    <Content Include="Images\Detail4.PNG" />
     <Content Include="Images\diengiai1.png" />
     <Content Include="Images\diengiai2.png" />
     <Content Include="Images\diengiai3.png" />

@@ -36,16 +36,12 @@ Body {
 #Content {
    /* background: #f6b600; */
     width: 100%;
+    text-align:center;
 }
 
 #Content .Title, .TitleYellow, .TitleWhite
 {
-    background: #d60508;
-    border-color:#ec4e5c;
-    border:2px auto;
-    border-left-width:0px;
-    border-right-width:0px;
-    border-style:solid;
+    background: transparent;
     margin:2px auto;
     height: 50px;
     font-family:Tahoma, Times New Roman;
@@ -53,13 +49,19 @@ Body {
     font-style:normal;
     font-weight:bold;
     text-align:justify;
-    padding-left: 50px;
+    padding-left:50px;
+    padding-top:5px;
     vertical-align:bottom;
     position:inherit;
 }
 
 #Content .TitleYellow
 {
+    border-color:#ec4e5c;
+    border:2px auto;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-style:solid;
     color: yellow;    
 }
 
@@ -105,15 +107,21 @@ Body {
 
 #Content .Advantise3
 {
-
+    margin:10px 0px 10px 0px;
+    width:100%;
+    text-align:center;
+    background:transparent;
+    border:none;
+    height:100px;
 }
 
 #Content .Advantise2
 {
-    width:930px;
+    width:100%;
     height:575px;
-    margin-top:10px;
+    margin-top:10px auto;
     text-align:center;
+    position:relative;
 }
 
 #Content img {
@@ -133,113 +141,17 @@ Body {
     height:405px;
     width:100%;
     margin:0px;
+    border:1.5px solid;
+    border-color:Orange;
 }   
-
-#Content4 .title
-{
-    background: transparent;
-    position:relative;
-    left:10px;
-    top:10px;
-    border: 0px;
-    white-space:nowrap;
-    vertical-align:bottom;
-}
 
 #Content4 .ContentBg
 {
     margin-left:2.5%;
+    background:transparent;
     position:absolute;
     width:95%;
     height:295px;
-}
-
-#Content4 .BgContentLeftTop
-{
-    width:650px;
-    height:240px;
-    float:left;
-    position:relative;
-    background: url('/Images/Background/bg_4.png') repeat;
-}
-
-#Content4 .BgContentLeftBot
-{
-    padding:10px 0px 10px 10px;
-    top:220px;
-    width:655px;
-    height:95px;
-    float:left;
-    position:absolute;
-    background: white;
-    -webkit-border-radius: 10px;  
-    -moz-border-radius: 10px;  
-    border-radius: 10px; 
-}
-
-#Content4 .BgContentRight
-{
-    padding:10px 10px 10px 10px;
-    left:640px;
-    float:right;
-    width:300px;
-    height:315px; 
-    background: white;
-    position:absolute;
-    -webkit-border-radius: 10px;  
-    -moz-border-radius: 10px;  
-    border-radius: 10px; 
-}
-
-#Content4 .BgContentLeftTop-left
-{
-    padding:10px 10px 10px 10px;
-    float:left;
-    position:absolute;
-    height:180px;
-    background:yellow;
-    width:200px;
-    -webkit-border-radius: 10px;  
-    -moz-border-radius: 10px;  
-    border-radius: 10px; 
-}
-
-#Content4 .BgContentLeftTop-middle
-{
-    left:190px;
-    height:180px;
-    width:20px;
-    float:left;
-    position:absolute;
-    background:yellow;
-}
-
-#Content4 .BgContentLeftTop-right
-{
-    padding:10px 10px 10px 30px;
-    top:50px;
-    height:130px;
-    width:380px;
-    left:200px;
-    position:absolute;
-    background:yellow;
-    float:right;
-    -webkit-border-radius: 10px;  
-    -moz-border-radius: 10px;  
-    border-radius: 10px; 
-}
-
-#Detail4
-{
-    padding:10px 10px 10px 10px;
-    background:white;
-    -webkit-border-radius: 25px;  
-    -moz-border-radius: 25px;  
-    border-radius: 25px; 
-    margin-top:10px;
-    margin-bottom:10px;
-    width:980px;
-    height:220px;
 }
 
 #Content5
@@ -247,4 +159,13 @@ Body {
     background: url('/Images/Background/bg_4.png') repeat;
     width:100%;
     margin:0px;
+}
+
+#Content5 .AdvantiseTop
+{
+    width:100%;
+    height:325px;
+    margin-top:5px auto;
+    text-align:center;
+    position:relative;
 }
