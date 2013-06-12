@@ -8,3 +8,7 @@ E:\Project\mvt-learning-web\tanmv\Teamplate\NNND\bin\NNND.pdb
 E:\Project\mvt-learning-web\tanmv\Teamplate\NNND\obj\Debug\ResolveAssemblyReference.cache
 E:\Project\mvt-learning-web\tanmv\Teamplate\NNND\obj\Debug\NNND.dll
 E:\Project\mvt-learning-web\tanmv\Teamplate\NNND\obj\Debug\NNND.pdb
+E:\MVT's Project\NNND\bin\NNND.dll
+E:\MVT's Project\NNND\bin\NNND.pdb
+E:\MVT's Project\NNND\obj\Debug\NNND.dll
+E:\MVT's Project\NNND\obj\Debug\NNND.pdb
