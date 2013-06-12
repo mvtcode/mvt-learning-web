@@ -151,63 +151,13 @@
             </div>
             <div id="Content">
                 <!--1-->
-                <div>
-                    <img src="/Images/numner1.jpg" width="100%" />
-                </div>
-                <div>
-                    <object width="100%" height="775" title="粤语学习01" id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-                        style="visibility: inherit;">
-                        <param value="http://player.youku.com/player.php/sid/XMjQ5NjU5MTU2/v.swf" name="movie">
-                        <param value="high" name="quality">
-                        <param value="opaque" name="wmode">
-                        <param value="6.0.65.0" name="swfversion">
-                        <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
-                        <!--[if !IE]>-->
-                        <object width="100%" height="775" data="http://player.youku.com/player.php/sid/XMjQ5NjU5MTU2/v.swf"
-                            type="application/x-shockwave-flash">
-                            <!--<![endif]-->
-                            <param value="high" name="quality">
-                            <param value="opaque" name="wmode">
-                            <param value="6.0.65.0" name="swfversion">
-                            <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
-                            <div>
-                                <h4>
-                                    Download Adobe Flash Player。</h4>
-                                <p>
-                                    <a href="http://www.adobe.com/go/getflashplayer">
-                                        <img width="112" height="33" alt="Download Adobe Flash Player" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"></a></p>
-                            </div>
-                            <!--[if !IE]>-->
-                        </object>
-                        <!--<![endif]-->
-                    </object>
-                </div>
-                <img src="Images/diengiai1.png" width="100%" />
+                <div class="TitleYellow">Title 1</div>
+                <div class="FlashPlayerFrame"> </div>
+                <div class="DetailBot"></div>
                 <!--2-->
-                <img src="Images/2.png" width="100%" />
-                <object width="100%" height="775" title="粤语学习01" id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-                    style="visibility: inherit;">
-                    <param value="http://player.youku.com/player.php/sid/XMjYzMDQzNjQ0/v.swf" name="movie">
-                    <param value="high" name="quality">
-                    <param value="opaque" name="wmode">
-                    <param value="6.0.65.0" name="swfversion">
-                    <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
-                    <!--[if !IE]>-->
-                    <object width="100%" height="775" data="http://player.youku.com/player.php/sid/XMjYzMDQzNjQ0/v.swf"
-                        type="application/x-shockwave-flash">
-                        <!--<![endif]-->
-                        <param value="high" name="quality">
-                        <param value="opaque" name="wmode">
-                        <param value="6.0.65.0" name="swfversion">
-                        <param value="http://cama35.com/Scripts/expressInstall.swf" name="expressinstall">
-                        <div>
-                            <h4>
-                                Download Adobe Flash Player</h4>
-                        </div>
-                        <!--[if !IE]>-->
-                    </object>
-                    <!--<![endif]-->
-                </object>
+                <div class="TitleYellow">Tite 2</div>
+                <div class="CommentTop">Này thì comment</div>
+                <div class="FlashPlayerFrame"> </div>
                 <img src="Images/diengiai2.png" width="100%" />
                 <!--3-->
                 <img src="Images/3.png" width="100%" />
