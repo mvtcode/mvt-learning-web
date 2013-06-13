@@ -1,0 +1,25 @@
+.theme-bar-color {
+background-color:#000;
+}
+
+body {
+background:#fff;
+}
+
+#style-background {
+opacity:0.2;
+background:url(../images/back-body-texture.png");
+}
+
+#style-shadow {
+opacity:1;
+background:url(../images/back-body-light.png") no-repeat center top;
+}
+
+.panel .title,.panel .title-large {
+background:grey;
+}
+
+.panel .title .theme,.panel .title-large .theme {
+opacity:1;
+}

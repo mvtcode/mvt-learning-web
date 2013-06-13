@@ -1,0 +1,215 @@
+.cat_navbar {
+    padding-top:0;
+    min-height:56px;
+    right:0;
+    clear:both;
+    margin-left:0;
+    z-index:999;
+    background:url(../images/navbar_bg.png) repeat-x transparent;
+    position:relative;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:3px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-bottomleft:3px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:3px;
+    width:827px;
+}
+
+.navbar_bg {
+    min-height:56px;
+    padding-top:0;
+    padding-bottom:0;
+    z-index:10;
+    margin:0 auto 0 0;
+}
+
+.sf-menu,.sf-menu * {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.sf-menu {
+    line-height:1.0;
+    float:left;
+    background:url(../images/sf-menu.gif) no-repeat 100% 0;
+    position:relative;
+    z-index:99999;
+    margin:0;
+}
+
+.sf-menu ul {
+    position:absolute;
+    top:-999em;
+    width:200px;
+}
+
+.sf-menu ul ul {
+    margin-top:0;
+}
+
+.sf-menu ul li {
+    width:150px;
+}
+
+.sf-menu li:hover {
+    visibility:inherit;
+}
+
+.sf-menu li {
+    float:left;
+    position:relative;
+}
+
+.sf-menu a {
+    display:block;
+    position:relative;
+}
+
+.sf-menu li:hover ul,.sf-menu li.sfHover ul {
+    left:1px;
+    top:57px;
+    z-index:9999;
+    background:#2d2c31;
+    padding:19px 0 10px;
+}
+
+.sf-menu .sfHover li a,.sf-menu>li li>a:hover, {
+    color:#fff;
+    text-decoration:none;
+}
+
+.sf-menu .sfHover li a:hover {
+    color:#ffd401;
+}
+
+.sf-menu>li,.sf-menu>li:hover {
+    margin-right:0;
+}
+
+.sf-menu li li {
+    background:url(../images/header_menu_sub-item.png) no-repeat 0 0;
+    margin:0 0 11px 19px;
+    padding:2px 0 3px 30px;
+}
+
+.sf-menu li:hover,.sf-menu li.sfHover,.sf-menu a:focus,.sf-menu a:hover,.sf-menu a:active {
+    outline:0;
+}
+
+.sf-menu a.sf-with-ul {
+    min-width:1px;
+    padding-right:23px;
+}
+
+.sf-sub-indicator2,.sf-sub-indicator {
+    width:10px;
+    height:10px;
+}
+
+.sf-menu>li a>span.sf-sub-indicator {
+    top:24px;
+    right:6px;
+}
+
+.sf-menu>li li a>.sf-sub-indicator {
+    top:13px;
+    right:10px;
+}
+
+li li a>.sf-sub-indicator {
+    top:7px;
+    right:5px;
+}
+
+.sf-shadow ul {
+    padding:2px 0;
+}
+
+.sf-shadow ul.sf-shadow-off {
+    background:transparent;
+}
+
+.sf-menu>li {
+    background:url(../images/sf-menu.gif) 0 0 no-repeat;
+    text-align:center;
+}
+
+.sf-menu>li.first {
+    background:none;
+}
+
+.sf-menu>li.first a {
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius-topleft:5px;
+    border-top-left-radius:5px;
+    padding:21px 9px 22px 8px;
+}
+
+.sf-menu>li>a {
+    color:#2e2e2e;
+    text-decoration:none;
+    font-weight:400;
+    font-size:14px;
+    font-style:normal;
+    text-transform:none;
+    padding:21px 8px 22px 11px;
+}
+
+.sf-menu>li:hover>a {
+    background:url(../images/sf-menu-act.png) 0 0 repeat-x;
+}
+
+.sf-menu .sfHover li a,.sf-menu>li li>a {
+    text-align:left;
+    color:#fff;
+    font-weight:400;
+    font-size:1em;
+    padding:0;
+}
+
+.sf-menu>li ul {
+    padding:0;
+}
+
+.sf-menu>li li a:hover,.sf-menu>li li a.current:hover {
+    color:#fa7f5a;
+}
+
+.home {
+    width:58px;
+    height:47px;
+    float:left;
+    margin-left:0;
+    border-right:1px solid #fff;
+    display:none;
+}
+
+.home strong {
+    width:58px;
+    height:47px;
+    display:inline-block;
+    background:url(../images/icons/sf-home.png) no-repeat 0 0 transparent;
+}
+
+ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul,ul.sf-menu li li:hover li ul,ul.sf-menu li li.sfHover li ul {
+    top:-999em;
+}
+
+ul.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul,ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul {
+    left:13.6em;
+    top:0;
+}
+
+.sf-menu a,.sf-menu a:hover,.sf-menu>li:hover>a,.sf-menu>li>a:hover {
+    text-decoration:none;
+}
+
+li:focus>a>.sf-sub-indicator,li:hover>a>.sf-sub-indicator,li:active>a>.sf-sub-indicator,a>.sf-sub-indicator {
+    background-position:0 0;
+}
+
+.sf-menu ul li a .sf-sub-indicator,.sf-menu ul li a>.sf-sub-indicator,.sf-menu ul li:hover>a>.sf-sub-indicator {
+    background-position:0 -10px;
+}

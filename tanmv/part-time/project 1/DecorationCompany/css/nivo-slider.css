@@ -1,0 +1,151 @@
+.nivoSlider {
+    position:relative;
+}
+
+.nivoSlider img {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.nivo-box {
+    display:block;
+    position:absolute;
+    z-index:5;
+}
+
+.nivoSlider a.nivo-imageLink {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border:0;
+    z-index:60;
+    margin:0;
+    padding:0;
+}
+
+.nivo-slice {
+    display:block;
+    position:absolute;
+    z-index:50;
+    height:100%;
+}
+
+.nivo-caption {
+    position:absolute;
+    left:0;
+    bottom:0;
+    background:#000;
+    color:#fff;
+    opacity:0.8;
+    width:100%;
+    z-index:89;
+}
+
+.nivo-caption p {
+    margin:0;
+    padding:5px;
+}
+
+.nivo-caption a {
+    display:inline!important;
+}
+
+.nivo-directionNav {
+    position:absolute;
+    top:42%;
+    height:1px;
+    z-index:90;
+    width:100%;
+}
+
+.nivo-directionNav a {
+    z-index:99;
+    cursor:pointer;
+}
+
+.nivo-prevNav,.nivo-nextNav {
+    display:inline-block;
+    visibility:visible;
+    color:#303030;
+    font-weight:400;
+    text-decoration:none;
+    background:url(../images/nivo-nav.png) no-repeat;
+    font-size:0;
+    line-height:0;
+    padding:0 0 46px 46px;
+}
+
+.nivo-prevNav:hover,.nivo-nextNav:hover {
+    color:#3f3f3f;
+    border-width:0;
+}
+
+.nivo-nextNav {
+    float:right;
+    margin-right:0;
+    background-position:-46px 0;
+}
+
+.nivo-prevNav {
+    float:left;
+    margin-left:0;
+    background-position:0 0;
+}
+
+.nivo-nextNav:hover {
+    background-position:-46px -46px;
+}
+
+.nivo-prevNav:hover {
+    background-position:0 -46px;
+}
+
+.nivo-controlNav {
+    position:absolute;
+    z-index:89;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow:hidden;
+    display:block;
+    height:26px;
+    background:url(../images/pags_bg.png) repeat 0 0;
+    text-align:right;
+    border-radius:0 0 4px 4px;
+    font-size:1em;
+    line-height:1em;
+    font-weight:700;
+    padding:9px 8px 0 0;
+}
+
+.nivo-controlNav a {
+    background:url(../images/cs-buttons.png) -20px 0 no-repeat transparent;
+    width:18px;
+    height:16px;
+    overflow:hidden;
+    position:relative;
+    z-index:991;
+    cursor:pointer;
+    font-size:0;
+    line-height:0;
+    vertical-align:middle;
+    display:inline-block;
+    margin:0 0 0 2px;
+    padding:0;
+}
+
+.nivo-controlNav a:hover,.nivo-controlNav a.active {
+    background-position:0 0;
+    color:#fefefe;
+}
+
+.nivoSlider_wrapper {
+    float:left;
+    overflow:hidden;
+    border:none;
+    margin:0;
+    padding:0;
+}
