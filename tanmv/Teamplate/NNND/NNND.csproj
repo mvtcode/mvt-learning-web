@@ -77,6 +77,7 @@
     <Content Include="Images\adv2.JPG" />
     <Content Include="Images\adv3.JPG" />
     <Content Include="Images\adv5.PNG" />
+    <Content Include="Images\advRec.PNG" />
     <Content Include="Images\Background\bgHeader.jpg" />
     <Content Include="Images\Background\bg_4.PNG" />
     <Content Include="Images\Background\num_1.jpg" />
@@ -84,7 +85,12 @@
     <Content Include="Images\banner_bottom.jpg" />
     <Content Include="Images\bottom.jpg" />
     <Content Include="Images\cd2.png" />
+    <Content Include="Images\CommentBot.PNG" />
+    <Content Include="Images\contact8.PNG" />
     <Content Include="Images\Detail4.PNG" />
+    <Content Include="Images\detail6.png" />
+    <Content Include="Images\Detail7.PNG" />
+    <Content Include="Images\Detail8.PNG" />
     <Content Include="Images\diengiai1.png" />
     <Content Include="Images\diengiai2.png" />
     <Content Include="Images\diengiai3.png" />
@@ -100,6 +106,7 @@
     <Content Include="Images\sau3.png" />
     <Content Include="Images\site_Tham_Khao.jpg" />
     <Content Include="Images\tongketmorong.png" />
+    <Content Include="Images\video8.PNG" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
