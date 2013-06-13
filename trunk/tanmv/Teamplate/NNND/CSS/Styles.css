@@ -19,7 +19,7 @@ Body {
 #MainBody 
 {
     width: 100%;
-    background: #93f685 url('/Images/Background/bg.jpg');
+    background: #d60508;
     padding: 0 30px;
 }
 
@@ -29,7 +29,7 @@ Body {
 }
 
 #header {
-    background: url('/Images/Background/bgHeader_1.jpg') repeat-x;
+    background: url('/Images/Background/bgHeader.jpg') repeat-x;
     padding: 10px 10px 0;
 }
 
@@ -39,7 +39,7 @@ Body {
     text-align:center;
 }
 
-#Content .Title, .TitleYellow, .TitleWhite
+#Content .Title, .TitleYellow, .TitleWhite, .TitleYellowLine
 {
     background: transparent;
     margin:2px auto;
@@ -55,7 +55,7 @@ Body {
     position:inherit;
 }
 
-#Content .TitleYellow
+#Content .TitleYellowLine
 {
     border-color:#ec4e5c;
     border:2px auto;
@@ -63,6 +63,11 @@ Body {
     border-right-width:0px;
     border-style:solid;
     color: yellow;    
+}
+
+#Content .TitleYellow
+{
+   color:Yellow; 
 }
 
 #Content .TitleWhite
@@ -168,4 +173,90 @@ Body {
     margin-top:5px auto;
     text-align:center;
     position:relative;
+}
+
+#Content6
+{
+    background: url('/Images/Background/bg_4.png') repeat;
+    width:100%;
+    height:530px;
+    margin:20px 0px 20px 0px;
+}
+
+#Content6 .ContentDetail
+{
+    width:100%;
+    height:400px;
+    border:none;
+    text-align:center;
+}
+
+.DetailDot
+{
+    width:100%;
+    height:230px;
+    border:4px;
+    border-color:Yellow;
+    border-style:dashed;
+    -webkit-border-radius: 25px;  
+    -moz-border-radius: 25px;  
+    border-radius: 25px; 
+}
+
+#Content8
+{
+    width:100%;
+    height:610px;
+    border:none;
+    background: url('/Images/Background/bg_4.png') repeat;
+    margin:20px 0px 20px 0px;
+}
+
+#Content8 .Detail8
+{
+    width:100%;
+    height:520px;
+    text-align:center;
+    vertical-align:top;
+    padding-left:50px;
+}
+
+#Content8 .Video8
+{
+    float:left;
+    width:575px;
+    height:415px;
+    position:inherit;    
+}
+
+#Content8 .Contact8
+{
+     float:left;
+     margin-left:10px;
+     margin-top:0px;
+     width:300px;
+     height:415px;
+     background-color:Yellow;
+    -webkit-border-radius: 10px;  
+    -moz-border-radius: 10px;  
+    border-radius: 10px; 
+    position:inherit;
+}
+
+#Content8 .BotDetail
+{
+    float:left;
+    position:relative;
+    margin-top:5px;
+    width:95%;
+    height:100px;
+}
+
+.AdvantiseRectange
+{
+    width:100%;
+    height:230px;
+    border:none;
+    background:white;
+    margin-top:10px;
 }

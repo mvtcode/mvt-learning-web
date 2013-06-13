@@ -143,7 +143,7 @@
             <div class="clear">
             </div>
             <div id="banner">
-                <img src="/Images/site_Tham_Khao_1.jpg" title="site tham khảo" style="width: 100%"
+                <img src="/Images/site_Tham_Khao.jpg" title="site tham khảo" style="width: 100%"
                     alt="site tham khảo" />
                 <img src="/Images/banner_bottom.jpg" title="Thông tin thêm" style="width: 100%" alt="Thông tin thêm" />
             </div>
@@ -151,7 +151,7 @@
             </div>
             <div id="Content">
                 <!--1-->
-                <div class="TitleYellow">Title 1</div>
+                <div class="TitleYellowLine">Title 1</div>
                 <div class="FlashPlayerFrame">
                     <object width="100%" height="775" title="粤语学习01" id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
                         style="visibility: inherit;">
@@ -182,7 +182,7 @@
 		        </div>
                 <div class="DetailBot"></div>
                 <!--2-->
-                <div class="TitleYellow">Tite 2</div>
+                <div class="TitleYellowLine">Tite 2</div>
                 <div class="CommentTop">Này thì comment</div>
                 <div class="FlashPlayerFrame">
                     <object width="100%" height="775" title="粤语学习01" id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
@@ -211,7 +211,7 @@
 	            </div>
                 <div class="Advantise2"><img alt="" src="Images/adv2.jpg" /></div>
                 <!--3-->
-                <div class="TitleYellow">Title 3</div>
+                <div class="TitleYellowLine">Title 3</div>
                 <div class="FlashPlayerFrame">
                     <object width="100%" height="775" title="粤语学习01" id="FlashID3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
                         style="visibility: inherit;">
@@ -261,19 +261,31 @@
                     </a>
                 <img src="Images/diengiai5.png" width="100%" />
                 <!--6-->
-                <img src="Images/6.png" width="100%" />
-                <img src="Images/diengiai6.png" width="100%" />
+                <div id="Content6">
+                    <div class="TitleWhite">Title 6</div>
+                    <div class="ContentDetail"><img src="Images/detail6.png" width="100%" /></div>
+                </div>
+                    <div class="DetailBot"></div>
                 <!--7-->
-                <img src="Images/7.png" width="100%" />
+                <div class="TitleYellow">Title 7</div>
+                <div class="DetailDot"><img src="Images/Detail7.png" height="100%" width="100%" /></div>
                 <!--8-->
-                <img src="Images/8.png" />
+                <div id="Content8">
+                    <div class="TitleWhite">Title 8</div>
+                    <div class="Detail8">
+                        <div class="Video8"><img src="Images/Video8.png" width="100%" height="100%" /></div>
+                        <div class="Contact8"><img src="Images/Contact8.png" width="95%" height="95%" /></div>
+                        <div class="BotDetail"><img src="Images/CommentBot.png" height="100%" /></div>
+                    </div>
+                </div>
+                <div class="DetailBot"><img src="Images/Detail8.png" /></div>
                 <img src="Images/9.png" width="100%" />
                 <img src="Images/sach1.png" width="100%" />
                 <img src="Images/cd2.png" width="100%" />
                 <img src="Images/ngoai3.png" width="100%" />
-                <img src="Images/sau3.png" width="100%" />
+                <div class="DetailBot"><img src="Images/sau3.png" width="100%" /></div>
                 <img src="Images/tongketmorong.png" width="100%" />
-                <img src="Images/ex1.png" width="100%" />
+                <div class="AdvantiseRectange"><img src="Images/advRec.png" width="100%" /></div>
             </div>
             <div id="facebook">
                 <div id="fb-root">
