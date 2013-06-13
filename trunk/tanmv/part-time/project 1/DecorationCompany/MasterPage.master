@@ -1,0 +1,240 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Src="Control/MenuTop.ascx" TagName="MenuTop" TagPrefix="uc1" %>
+<%@ Register Src="Control/CartHome.ascx" TagName="CartHome" TagPrefix="uc2" %>
+<%@ Register Src="Control/MainMenu.ascx" TagName="MainMenu" TagPrefix="uc3" %>
+<%@ Register Src="Control/Search.ascx" TagName="Search" TagPrefix="uc4" %>
+<%@ Register Src="Control/NivoSlider.ascx" TagName="NivoSlider" TagPrefix="uc5" %>
+<%@ Register Src="Control/MenuLeft.ascx" TagName="MenuLeft" TagPrefix="uc6" %>
+<%@ Register Src="Control/Footer.ascx" TagName="Footer" TagPrefix="uc7" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Nguyen Dai Duong - Home Decoration Company</title>
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="js/ui/redmond/jquery-ui-1.8.6-osc.css" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/ui/jquery-ui-1.8.6.min.js"></script>
+    <script type="text/javascript" src="js/bxGallery/jquery.bxGallery.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" />
+    <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript" src="js/xeasyTooltipIMG.js"></script>
+    <script type="text/javascript" src="js/hoverIntent.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+    <script type="text/javascript" src="js/jquery.equalheights.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="js/jqtransformplugin/jquery.jqtransform.js"></script>
+    <script type="text/javascript" src="js/jquery.stringball.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/960_10_24_col.css" />
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="css/constants.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style_boxes.css" />
+    <link rel="stylesheet" type="text/css" href="css/css3.css" />
+    <link rel="stylesheet" type="text/css" href="css/buttons.css" />
+    <link rel="stylesheet" type="text/css" href="css/nivo-slider.css" />
+    <link rel="stylesheet" href="css/stringball.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/superfish.css" />
+    <link rel="stylesheet" media="screen" href="css/superfish-navbar.css" />
+    <link href="../../fonts.googleapis.com/css-family=Oswald.css" rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="js/js.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.custom_select form').jqTransform();
+            $("ul.sf-menu").superfish({
+                pathClass: 'current',
+                delay: 1000,
+                animation: { opacity: 'show', height: 'show' },
+                speed: 'slow',
+                autoArrows: true,
+                dropShadows: true
+            });
+
+        });
+    </script>
+    <style type="text/css">
+        .js_bg
+        {
+            width: 950px;
+            height: 370px;
+        }
+        #faded
+        {
+            height: 370px;
+        }
+        #screenshot img
+        {
+            width: SUPERFISH_IMAGE_WIDTHpx;
+            height: SUPERFISH_IMAGE_HEIGHTpx;
+        }
+        #screenshotCategory
+        {
+            width: 84px;
+            height: 84px;
+        }
+        #screenshotCategory img
+        {
+            height: 84px;
+        }
+    </style>
+    <style type="text/css">
+        .nivo-caption
+        {
+            display: none !important;
+        }
+    </style>
+    <script type="text/javascript" src="js/floater_xlib.js"></script>
+    <script type="text/javascript">
+
+        var slideTime = 700;
+        var floatAtBottom = false;
+
+        function pepsi_floating_init() {
+            xMoveTo('floating_banner_right', 887 - (1024 - screen.width), 0);
+
+            winOnResize(); // set initial position
+            xAddEventListener(window, 'resize', winOnResize, false);
+            xAddEventListener(window, 'scroll', winOnScroll, false);
+        }
+        function winOnResize() {
+            checkScreenWidth();
+            winOnScroll(); // initial slide
+        }
+        function winOnScroll() {
+            var y = xScrollTop();
+            if (floatAtBottom) {
+                y += xClientHeight() - xHeight('floating_banner_left');
+            }
+
+            xSlideTo('floating_banner_left', (screen.width - (1024 - 775) - 770) / 2 - 90, y, slideTime);  // Chỉnh khoảng cách bên trái
+            xSlideTo('floating_banner_right', (screen.width - (1024 - 775) + 770) / 2 + 215, y, slideTime); // // Chỉnh khoảng cách bên Phải
+        }
+
+        function checkScreenWidth() {
+            if (document.body.clientWidth < 926) {
+                document.getElementById('floating_banner_left').style.display = 'none';
+                document.getElementById('floating_banner_right').style.display = 'none';
+            }
+            else {
+                document.getElementById('floating_banner_left').style.display = '';
+                document.getElementById('floating_banner_right').style.display = '';
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <p id="back-top">
+        <a href="#top"><span>Top</span></a></p>
+    <div id="bodyWrapper" class="bg_body index_page">
+        <div class="wrapper">
+            <div>
+                <div class="row_1">
+                    <div class="container_24">
+                        <div class="grid_">
+                            <div id="header">
+                                <div class="box_languages">
+                                    <div class="languages">
+                                        <label class="fl_left">
+                                            Languages:
+                                        </label>
+                                        <a href="#">en</a>
+                                        <img src="images/spacer.gif" alt="" width="1" height="1" class="languages_img" />
+                                        <a href="#">vn</a>
+                                        <img src="images/spacer.gif" alt="" width="1" height="1" class="languages_img" />
+                                    </div>
+                                </div>
+                                <uc1:MenuTop ID="MenuTop1" runat="server" />
+                                <uc4:Search ID="Search1" runat="server" />
+                                <uc3:MainMenu ID="MainMenu1" runat="server" />
+                                <uc2:CartHome ID="CartHome1" runat="server" />
+                                <a class="logo" href="Default.aspx">
+                                    <h1 style="font-size: 30px; font-weight: bold;">
+                                        Nguyen Dai Duong
+                                    </h1>
+                                    <h3 style="margin: 0; font-weight: normal;">
+                                        Home Decoration Company</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <uc5:NivoSlider ID="NivoSlider1" runat="server" />
+                <div class="row_4">
+                    <div class="container_24">
+                        <div class="cont">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                            <uc6:MenuLeft ID="MenuLeft1" runat="server" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row_5">
+                    <div>
+                        <uc7:Footer ID="Footer1" runat="server" />
+                        <div class="container_24">
+                            <div class="grid_24">
+                                <div class="footer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $('.productListTable tr:nth-child(even)').addClass('alt');
+                </script>
+            </div>
+        </div>
+    </div>
+    <!--[if lt IE 9]>
+      <link href="css/ie_style.css"  rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <script type="text/javascript" src="js/imagepreloader.js"></script>
+    <script type="text/javascript">
+        preloadImages([
+        //	'images/user_menu.gif',
+			'images/bg_list.png',
+			'images/hover_bg.png',
+			'images/nivo-nav.png',
+			'images/wrapper_pic.png',
+			'images/wrapper_pic-act.png']);
+    </script>
+    <script type="text/javascript">        if (!NREUMQ.f) { NREUMQ.f = function () { NREUMQ.push(["load", new Date().getTime()]); var e = document.createElement("script"); e.type = "text/javascript"; e.src = (("http:" === document.location.protocol) ? "http:" : "https:") + "//" + "d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js"; document.body.appendChild(e); if (NREUMQ.a) NREUMQ.a(); }; NREUMQ.a = window.onload; window.onload = NREUMQ.f; }; NREUMQ.push(["nrfj", "http://livedemo00.template-help.com/osc_44255/beacon-1.newrelic.com", "72d7dcce33", "1388850", "ZV1TZ0FTVkFVWkwKXlwXZEFaHRIdXVdcBkkcSFlD", 0, 160, new Date().getTime(), "", "", "", "", ""]);</script>
+    </form>
+    <div id="floating_banner_left" style="text-align: right; position: absolute; overflow: hidden;
+        top: 0px; left: 0px; width: 105px; border: 0px solid #000;">
+        <div id="floating_banner_left_content">
+            <asp:Repeater ID="RptBannerLeft" runat="server" onitemdatabound="BannerLeft_ItemDataBound">
+                <ItemTemplate>
+                    <asp:HyperLink ID="lnkImg" runat="server">
+                        <asp:Image ID="img" runat="server" BorderStyle="None" Width="105px" />
+                    </asp:HyperLink>
+                    <br />
+                </ItemTemplate>
+            </asp:Repeater>
+        </div>
+    </div>
+    <div id="floating_banner_right" style="text-align: left; position: absolute; overflow: hidden;
+        top: 0px; right: 0px; width: 105px; border: 0px solid #000;">
+        <div id="floating_banner_right_content">
+            <asp:Repeater ID="RptBannerRight" runat="server" onitemdatabound="RptBannerRight_ItemDataBound">
+                <ItemTemplate>
+                    <asp:HyperLink ID="lnkImg" runat="server">
+                        <asp:Image ID="img" runat="server" BorderStyle="None" Width="105px" />
+                    </asp:HyperLink>
+                    <br />
+                </ItemTemplate>
+            </asp:Repeater>
+            <br />
+        </div>
+    </div>
+    <script type="text/javascript">
+        runQuery();
+    </script>
+    <script type="text/javascript">
+        pepsi_floating_init();
+    </script>
+</body>
+</html>

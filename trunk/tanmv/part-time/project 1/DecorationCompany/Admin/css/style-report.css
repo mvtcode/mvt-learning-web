@@ -1,0 +1,53 @@
+﻿span{font-size:15px;}
+        .style
+        {
+            width: 100%;
+        }
+        .style_50
+        {
+            width: 50px;
+            text-align: center;
+            height: 25px;
+        }
+        .style1
+        {
+            width: 100px;
+            text-align: center;
+            height: 25px;
+        }
+        .style2
+        {
+            width: 200px;
+            text-align: center;
+            height: 25px;
+        }
+        .style3
+        {
+            width: 300px;
+            text-align: center;
+            height: 25px;
+        }
+        .style4
+        {
+            width: 400px;
+            text-align: center;
+            height: 25px;
+        }
+        .style5
+        {
+            width: 500px;
+            text-align: center;
+            height: 25px;
+        }
+        .style6
+        {
+            width: 600px;
+            text-align: center;
+            height: 25px;
+        }
+        .style7
+        {
+            width: 700px;
+            text-align: center;
+            height: 25px;
+        }

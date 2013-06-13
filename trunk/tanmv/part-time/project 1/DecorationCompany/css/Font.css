@@ -1,0 +1,193 @@
+﻿body 
+{
+	font-family: Tahoma;
+	font-size:13px;
+}
+.fontMenu
+{
+	font-family:Tahoma;
+	font-size:16px;
+	color:White;
+	}
+.txtService
+{
+	font-family:Tahoma;
+	font-size:16px;
+	color:Black;
+	}
+.linkMenu {
+	font-size: 14px;
+	color: #505050;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight:normal
+}
+.linkMenu:link {
+	font-size: 14px;
+	color: #505050;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight:normal
+}
+.linkMenu:hover {
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight:normal;
+		
+}
+.linkMenu:active
+{
+	font-size: 14px;
+	color: firebrick;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: normal;
+}
+
+.boderMenu2 {
+	border: 1px double #666666;
+}
+.boderMenu
+{
+	border-top-width: 1px;
+	border-top-style: double;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #666666;
+}
+.boderMenu: hover
+{
+	border-top-width: 1px;
+	border-top-style: double;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #666666;
+	background-image: url(Images/0506-b.gif);
+	background-repeat: repeat-x;
+}
+.linkPage
+{
+	font-size: 13px;
+	color: slategray;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: normal;
+	background-color: lightgrey;
+}
+.linkPage:link
+{
+	font-size: 13px;
+	color: slategray;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: normal;
+	background-color: lightgrey;
+}
+.linkPage:active
+{
+	font-size: 13px;
+	color: firebrick;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: normal;
+}
+.linkPage:hover
+{
+	font-size: 13px;
+	color: slategray;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: normal;
+	background-color: orange;
+}
+.linkServices
+{
+	font-size: 13px;
+	color: brown;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+.linkServices:link
+{
+	font-size: 13px;
+	color: brown;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+.linkServices:hover
+{
+	font-size: 13px;
+	color: chocolate;
+	text-decoration: underline;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+.linkServices:active
+{
+	font-size: 13px;
+	color: firebrick;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+
+.linkSiteMap1
+{
+	font-size: 13px;
+	color: Blue;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: normal;
+}
+.linkSiteMap1:link
+{
+	font-size: 13px;
+	color: Blue;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: normal;
+}
+.linkSiteMap1:hover
+{
+	font-size: 13px;
+	color: Red;
+	text-decoration: underline;
+	font-family: Tahoma;
+	font-weight: normal;
+}
+.linkSiteMap1:active
+{
+	font-size: 13px;
+	color: Red;
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+A:link
+{
+	font-family: Tahoma;
+	color: blue;
+	font-size: 13px;
+	text-decoration: none;
+}
+A:hover
+{
+	font-family: Tahoma;
+	color: red;
+	font-size: 13px;
+	text-decoration: underline;
+}
+A:active
+{
+	font-family: Tahoma;
+	color: red;
+	font-size: 13px;
+	text-decoration: underline;
+}
