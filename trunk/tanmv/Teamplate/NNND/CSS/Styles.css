@@ -16,10 +16,13 @@ Body {
     background: #fff;
 }
 
+.clear {
+    clear: both;
+}
 #MainBody 
 {
     width: 100%;
-    background: #d60508;
+    background: #007c3d;
     padding: 0 30px;
 }
 
@@ -30,7 +33,29 @@ Body {
 
 #header {
     background: url('/Images/Background/bgHeader.jpg') repeat-x;
-    padding: 10px 10px 0;
+    /*padding: 10px 10px 0 0;*/
+    height: 100px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 4px
+}
+
+#banner-bottom {
+    display: block;  
+}
+#banner-bottom ul {
+    margin-left: 20px;
+}
+#banner-bottom ul li {
+    list-style: url('/Images/Background/bg-li.jpg');
+}
+
+#banner-bottom ul li {
+    font-size: 20px;
+}
+#banner-bottom ul li .list {
+    color: #d8231a;
+    font-size: 34px;
 }
 
 #Content {
@@ -45,7 +70,7 @@ Body {
     margin:2px auto;
     height: 50px;
     font-family:Tahoma, Times New Roman;
-    font-size:26pt;
+    font-size:30px;
     font-style:normal;
     font-weight:bold;
     text-align:justify;
@@ -55,19 +80,35 @@ Body {
     position:inherit;
 }
 
-#Content .TitleYellowLine
+#Content .TitleLine {
+    background: url('/Images/Background/bgTitleLine.jpg') repeat-x;
+    display: inline-block;
+    height: 72px;
+    color: white;
+    width: 100%;
+    padding-top: 20px;
+    font-weight: bold;
+}
+#Content .TitleLine .content
 {
-    border-color:#ec4e5c;
-    border:2px auto;
-    border-left-width:0px;
-    border-right-width:0px;
-    border-style:solid;
-    color: yellow;    
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+    padding-top: 5px;
+    overflow: hidden;
+    width: 930px;
+    text-align: left;
 }
 
-#Content .TitleYellow
-{
-   color:Yellow; 
+#Content .TitleLine .number {
+    background: url('/Images/Background/bgNumber.png') no-repeat;
+    width: 51px;
+    height: 51px;
+    display: block;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 15px;
 }
 
 #Content .TitleWhite
@@ -77,7 +118,7 @@ Body {
 
 #Content .FlashPlayerFrame
 {
-    background:#f6b600;
+    /*background:#f6b600;*/
     width:100%;
     height:775px;    
 }
@@ -120,13 +161,38 @@ Body {
     height:100px;
 }
 
-#Content .Advantise2
+#Adv2 {
+    text-align: left;
+}
+#Adv2 .GroupList {
+    width: 300px;
+    float: left;
+}
+#Adv2 .list1
 {
-    width:100%;
-    height:575px;
-    margin-top:10px auto;
-    text-align:center;
-    position:relative;
+    
+}
+#Adv2 .list1 .item {
+    height: 80px;
+}
+#Adv2 .list1 .item .number {
+    color: red;
+    display: block;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    height: 80px;
+    vertical-align:text-top;
+    margin-right: 10px;
+    text-align: right;
+    width: 45px;
+}
+#Adv2 .list1 .item .title {
+    color: #d8231a;
+    
+}
+#Adv2 .list1 .item .desc {
+    
 }
 
 #Content img {
