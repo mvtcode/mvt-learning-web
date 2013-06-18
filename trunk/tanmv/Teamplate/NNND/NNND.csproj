@@ -86,6 +86,11 @@
     <Content Include="Images\Background\bgTitleLine.jpg" />
     <Content Include="Images\Background\bg_4.PNG" />
     <Content Include="Images\Background\bt_dangkyi.jpg" />
+    <Content Include="Images\Background\Content4\4_03.gif" />
+    <Content Include="Images\Background\Content4\Google-logo1.jpg" />
+    <Content Include="Images\Background\Content4\search-icon-hi.png" />
+    <Content Include="Images\Background\Content4\youtube-logo2.jpeg" />
+    <Content Include="Images\Background\Content5\298vietnam.jpg" />
     <Content Include="Images\Background\left_dangky.jpg" />
     <Content Include="Images\Background\left_hotro.jpg" />
     <Content Include="Images\Background\logo-online.png" />

@@ -225,21 +225,144 @@ Body {
     height:295px;
 }
 
+#Content4  .number {
+    background: url('/Images/Background/bgNumber.png') no-repeat;
+    width: 51px;
+    height: 51px;
+    display: block;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+#Content4 #contentbg1t
+{
+    width:586px;
+    height:296px;
+    float:left;
+    }
+#Content4 #contentbg1
+{
+    background: url('/Images/Background/Content4/4_03.gif');
+    width:567px;
+    height:225px;
+    margin-top:20px;
+    float:left;
+    } 
+#Content4 #contentbg1 p
+{
+    margin:0px 10px 0px 250px;
+    text-align: justify;
+    }
+#Content4 #contentbg1 #pcontent4
+{
+    margin-top:40px;
+    }
+#Content4 #contentbg2
+{
+    width:328px;
+    height:296px;
+    background-color:White;
+    float:left;
+    margin-top:20px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    
+    }
+#Content4 #contentbg11
+{
+    width:586px;
+    height:61px;
+    background-color:White;
+    float:left;
+    margin-top:10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }
+    
+#Content4 #contentbg11 img
+{
+    width:80px;
+    height:40px;
+    }
+#Content4 #contentbg11 #input
+{
+    height:20px;
+    width:100px;
+    position:absolute;
+    top:11px;
+    }    
+#Content4 #contentbg11 #inpu1t    
+{
+    height:20px;
+    width:100px;
+    position:absolute;
+    top:11px;
+    } 
+#Content4 #contentbg11 #syo
+{
+    float:left;
+    width:250px;
+    height:40px;
+    position:relative;
+    margin-top:10px;
+    }    
+#Content4 #contentbg11 #sgo
+{
+    float:left;
+    width:250px;
+    height:40px;
+    margin-left:15px;
+    position:relative;
+    margin-top:10px;
+    } 
 #Content5
 {
     background: url('/Images/Background/bg_4.png') repeat;
     width:100%;
+    height:350px;
     margin:0px;
 }
 
+#Content5  .number {
+    background: url('/Images/Background/bgNumber.png') no-repeat;
+    width: 51px;
+    height: 51px;
+    display: block;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+
 #Content5 .AdvantiseTop
 {
-    width:100%;
-    height:325px;
-    margin-top:5px auto;
-    text-align:center;
-    position:relative;
+    width:858px;
+    height:210px;
+    background-color:#fff402;
+    margin:25px auto;
+    margin-bottom:40px;
+    border-radius: 15px;
 }
+
+#Content5 #imagevn img
+{
+    height:210px;
+    width:210px;
+    margin-left:15px;
+    }
+#Content5 #imagevn
+{
+    float:left;
+    }
+#Content5 #infor p
+{
+    margin:10px 0 0 250px;
+    text-align: justify;
+    }
+
+
 
 #Content6
 {
