@@ -419,7 +419,7 @@
                     <span class="number">5</span>
                     <div class="TitleWhite">Có những ai đã từng học tại "TIẾNG HOA CHO NGƯỜI BẬN RỘN NAM DU"</div>
                     <div class="AdvantiseTop">
-                        <div id="imagevn"><img src="Images/Background/Content5/298vietnam.jpg" /></div>
+                        <div id="imagevn"><img src="Images/Background/Content5/298vietnam.jpg" alt="Bản đồ Việt Nam"/></div>
                         <div id="infor">
                             <p>"TIẾNG HOA CHO NGƯỜI BẬN RỘN NAM DU" là trung tâm tiếng Hoa uy tín tại Bình Dương. Thành lập từ tháng 7 năm 2010
                             tới nay, đã cung cấp cho thị trường hơn 1000 học viên với mọi trình độ, trong đó có một học viên xuất sắc hiện đang
@@ -433,10 +433,15 @@
                 
                 <!--6-->
                 <div id="Content6">
-                    <div class="TitleWhite">CLICK GHÉ THĂM FACEBOOK "NGOẠI NGỮ NAM DU" NGAY, BẠN SẼ ĐƯỢC...</div>
-                    <div class="ContentDetail"><img src="Images/detail6.png" width="100%" /></div>
+                    <div class="TitleLine">
+                        <span class="number">6</span>
+                        <span class="content">CLICK GHÉ THĂM FACEBOOK "NGOẠI NGỮ NAM DU" NGAY, BẠN SẼ ĐƯỢC...</span>
+                    </div>
+                    <div class="ContentDetail">
+                        <iframe src="//www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/pages/Ngo%E1%BA%A1i-Ng%E1%BB%AF-Nam-Du/476570295765236&width=1000&height=500&show_faces=true&colorscheme=light&stream=false&border_color=%23cccccc&header=false" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 1000px; height: 500px;" allowtransparency="true"></iframe>
+                    </div>
                 </div>
-                    <div class="DetailBot"></div>
+                <%--<div class="DetailBot"></div>--%>
                 <!--7-->
                 <div class="TitleLine">
                     <span class="number">7</span>
