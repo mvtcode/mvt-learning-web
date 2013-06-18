@@ -373,22 +373,64 @@
                 <!--4-->
                     <div class="clear"></div>
                 <div id="Content4">
+                    <span class="number">4</span>
                     <div class="TitleWhite">Ai là giảng viên chính tại "TIẾNG HOA CHO NGƯỜI BẬN RỘN NAM DU"?</div>
                     <div class="clear"></div>
                     <div class="ContentBg">
-                        <img src="Images/Detail4.PNG" />
+                        <div id="contentbg1t">
+                        <div id=contentbg1>
+                            <div id="pcontent4">
+                            <p>Đặng Nam Du</p>
+                            <p>- Giáo viên Hán Ngữ đối ngoại quốc tế (TCSOL)</p>
+                            <p>- Tác giả cuốn "Tiếng Việt & Tiếng Hoa thực hành cấp tốc"</p>
+                            <p>- Phương án học tập toàn diện</p>
+                            <p>- Người sáng lập ngoại ngữ quốc tế Nam Du - "Phương án học tập toàn diện" trực tiếp tham gia giảng dạy</p>
+                            </div>
+                        </div>
+                        <div id="contentbg11">
+                            <div id="syo">
+                                <img src="Images/Background/Content4/youtube-logo2.jpeg" />
+                                <input id="input" type="text" name="seachyoutube"/>
+                            </div>
+                            <div id="sgo">
+                                <img src="Images/Background/Content4/Google-logo1.jpg" />
+                                <input id="inpu1t" type="text" name="seachgoogle" />
+                            </div>
+                            
+                        </div>
+                        </div>
+                        <div id=contentbg2>
+                            <p>"TIẾNG HOA CHO NGƯỜI BẬN RỘN NAM DU"</p>
+                            <p>Từ khi công khai các clip bài giảng, luôn được chú ý, các bạn đồng nghiệp mô phỏng và các học viên đón nhận</p>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <p>Đứng đầu trong các trang tìm kiếm với từ khóa "tự học tiếng Hoa"</p>
+                        </div>
                     </div>
                 </div>
                 <div class="DetailBot"></div>
                 <!--5-->
-                <%--<div id="Content5">
+                <div id="Content5">
+                    <span class="number">5</span>
                     <div class="TitleWhite">Có những ai đã từng học tại "TIẾNG HOA CHO NGƯỜI BẬN RỘN NAM DU"</div>
-                    <div class="AdvantiseTop"><img src="Images/adv5.PNG" /></div>
-                    <img src="Images/5.png" width="100%" />
+                    <div class="AdvantiseTop">
+                        <div id="imagevn"><img src="Images/Background/Content5/298vietnam.jpg" /></div>
+                        <div id="infor">
+                            <p>"TIẾNG HOA CHO NGƯỜI BẬN RỘN NAM DU" là trung tâm tiếng Hoa uy tín tại Bình Dương. Thành lập từ tháng 7 năm 2010
+                            tới nay, đã cung cấp cho thị trường hơn 1000 học viên với mọi trình độ, trong đó có một học viên xuất sắc hiện đang
+                            đảm nhiệm công việc phiên dịch cho các công ty liên doanh Đài Loan, Trung Quốc... các nước thuộc khối Hoa Ngữ</p>
+                            <p>Tháng 8 năm 2013, trường ngoại ngữ quốc tế Nam Du chính thức đưa vào hoạt động mô hình tập huấn tiếng Hoa online trên
+                            phạm vi toàn cầu</p>
+                        </div>
+                    </div>
                 </div>
-                <a href="http://tieba.baidu.com/f?kz=1039355702">
-                    </a>
-                <img src="Images/diengiai5.png" width="100%" />--%>
+                <a href="http://tieba.baidu.com/f?kz=1039355702"></a>
+                
                 <!--6-->
                 <div id="Content6">
                     <div class="TitleWhite">CLICK GHÉ THĂM FACEBOOK "NGOẠI NGỮ NAM DU" NGAY, BẠN SẼ ĐƯỢC...</div>
